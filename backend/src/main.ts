@@ -4,7 +4,7 @@ import * as Sentry from '@sentry/node';
 import "./instrument";
 const { nodeProfilingIntegration } = require("@sentry/profiling-node");
 
-import { SentryFilter } from './global/exceptionFilter';
+import { SentryFilter } from './share/global/exceptionFilter';
 
 async function bootstrap() {
 

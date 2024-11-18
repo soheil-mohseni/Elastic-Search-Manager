@@ -4,7 +4,7 @@ import { BullModule } from '@nestjs/bull';
 import { ElasticService } from './elastic.service';
 import { ElasticController } from './elastic.controller';
 import { SearchProcessor } from 'src/bullmq/bullmq';
-import { CommandService } from 'src/global/command.service';
+import { CommandService } from 'src/share/global/command.service';
 import { APP_FILTER } from "@nestjs/core";
 import { SentryGlobalFilter } from "@sentry/nestjs/setup";
 

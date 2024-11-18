@@ -1,8 +1,8 @@
 import { HttpException, HttpStatus, Injectable, Logger } from '@nestjs/common';
 import { InjectQueue } from '@nestjs/bull';
 import { Queue } from 'bullmq';
-import { GlobalService } from 'src/global/global.service';
-import { CommandService } from 'src/global/command.service';
+import { GlobalService } from 'src/share/global/global.service';
+import { CommandService } from 'src/share/global/command.service';
 import { WriteConfig } from './interface/write-config.interface';
 import { ErrorMessages } from 'src/share/common/constants/error.constant';
 

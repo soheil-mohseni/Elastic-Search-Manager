@@ -1,7 +1,7 @@
 import { Processor, Process } from '@nestjs/bull';
 import { Job } from 'bullmq';
 import { Logger } from '@nestjs/common';
-import { ElasticService } from 'src/elastic/elastic.service';
+import { ElasticService } from 'src/modules/elastic/elastic.service';
 
 @Processor('searchQueue') // This is the queue name
 export class SearchProcessor {

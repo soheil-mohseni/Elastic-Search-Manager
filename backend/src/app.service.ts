@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { ElasticService } from './elastic/elastic.service';
+import { ElasticService } from './modules/elastic/elastic.service';
 
 @Injectable()
 export class AppService {
