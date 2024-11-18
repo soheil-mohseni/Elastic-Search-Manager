@@ -1,0 +1,108 @@
+# compiled output
+backend/dist
+backend/node_modules
+backend/build
+# backend/# Logs
+backend/logs
+backend/*.log
+backend/npm-debug.log*
+backend/pnpm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/lerna-debug.log*
+# backend/# OS
+backend/.DS_Store
+# backend/# Tests
+backend/coverage
+backend/.nyc_output
+# backend/# IDEs and editors
+backend/.idea
+backend/.project
+backend/.classpath
+backend/.c9/
+backend/*.launch
+backend/.settings/
+backend/*.sublime-workspace
+# backend/# IDE - VSCode
+backend/.vscode/*
+backend/!.vscode/settings.json
+backend/!.vscode/tasks.json
+backend/!.vscode/launch.json
+backend/!.vscode/extensions.json
+# backend/# dotenv environment variable files
+backend/.env
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/.env.local
+# backend/# temp directory
+backend/.temp
+backend/.tmp
+# backend/# Runtime data
+backend/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+# backend/# Diagnostic reports (https://nodejs.org/api/report.html)
+backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+
+
+
+
+# compiled output
+elastic-front/dist
+elastic-front/node_modules
+elastic-front/build
+# elastic-front/# Logs
+elastic-front/logs
+elastic-front/*.log
+elastic-front/npm-debug.log*
+elastic-front/pnpm-debug.log*
+elastic-front/yarn-debug.log*
+elastic-front/yarn-error.log*
+elastic-front/lerna-debug.log*
+# elastic-front/# OS
+elastic-front/.DS_Store
+# elastic-front/# Tests
+elastic-front/coverage
+elastic-front/.nyc_output
+# elastic-front/# IDEs and editors
+elastic-front/.idea
+elastic-front/.project
+elastic-front/.classpath
+elastic-front/.c9/
+elastic-front/*.launch
+elastic-front/.settings/
+elastic-front/*.sublime-workspace
+# elastic-front/# IDE - VSCode
+elastic-front/.vscode/*
+elastic-front/!.vscode/settings.json
+elastic-front/!.vscode/tasks.json
+elastic-front/!.vscode/launch.json
+elastic-front/!.vscode/extensions.json
+# elastic-front/# dotenv environment variable files
+elastic-front/.env
+elastic-front/.env.development.local
+elastic-front/.env.test.local
+elastic-front/.env.production.local
+elastic-front/.env.local
+# elastic-front/# temp directory
+elastic-front/.temp
+elastic-front/.tmp
+# elastic-front/# Runtime data
+elastic-front/pids
+elastic-front/*.pid
+elastic-front/*.seed
+elastic-front/*.pid.lock
+# elastic-front/# Diagnostic reports (https://nodejs.org/api/report.html)
+elastic-front/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+
+
+
+
+
+
